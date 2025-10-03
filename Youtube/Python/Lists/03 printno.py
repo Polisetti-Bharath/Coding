@@ -1,6 +1,0 @@
-n=int(input("Enter how many numbers: "))
-x = list(range(1, n + 1))
-print(x)
-print(x[0:5])
-print(x[-5:])
-print(x[1::2])
