@@ -17,11 +17,11 @@ plt.legend()
 plt.grid(True, linestyle='--', linewidth=0.5)
 plt.show()
 
-# plt.figure(figsize=(10,6))
-# sns.histplot(df['Values'], kde=False, color='pink', edgecolor='red')    
-# plt.title('HISTOGRAM USING SEABORN', fontsize=18, fontweight='bold')
-# plt.xlabel('Values', fontsize=12, fontweight='bold')
-# plt.ylabel('Frequency', fontsize=12, fontweight='bold')
+plt.figure(figsize=(10,6))
+sns.histplot(df['Values'], kde=False, color='pink', edgecolor='red')    
+plt.title('HISTOGRAM USING SEABORN', fontsize=18, fontweight='bold')
+plt.xlabel('Values', fontsize=12, fontweight='bold')
+plt.ylabel('Frequency', fontsize=12, fontweight='bold')
 
-# plt.show()
+plt.show()
 
