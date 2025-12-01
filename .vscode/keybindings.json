@@ -1,0 +1,12 @@
+[
+    {
+        "key": "ctrl+alt+m",
+        "command": "code-runner.run",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "code-runner.stop",
+        "when": "code-runner.codeRunning"
+    }
+]

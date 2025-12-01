@@ -6,5 +6,24 @@
         "limits": "c",
         "stdlib.h": "c"
     },
-    "livePreview.defaultPreviewPath": "/College/FEDF/indec.html"
+    "livePreview.defaultPreviewPath": "/College/FEDF/indec.html",
+    
+    // Code Runner Configuration
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.preserveFocus": false,
+    "code-runner.ignoreSelection": false,
+    
+    // Executor Map for different languages
+    "code-runner.executorMap": {
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "python": "python3 -u $fullFileName"
+    },
+    
+    // Terminal settings
+    "code-runner.showExecutionMessage": true,
+    "code-runner.respectShebang": false
 }
