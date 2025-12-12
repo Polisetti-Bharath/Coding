@@ -21,6 +21,6 @@ int main(){
         else if(x<a[m]) e=m-1;
         else s=m+1;
     }
-    if(s<=e) printf("Data found at index %d",m);
+    if(s<=e) printf("Data found at index %d\n",m);
     else printf("Data not found");
 }
