@@ -12,4 +12,4 @@ public class isinteger {
         }
         sc.close();
     }
-}
+} 
