@@ -5,7 +5,7 @@ public class fact{
         System.out.println("Enter the value of number:");
         int n = sc.nextInt();
         int fact = 1 ;
-        for(int i=1;i<n;i++){
+        for(int i=1;i<=n;i++){
             fact *=i;
         }
         System.out.println("Factorial:"+fact);
