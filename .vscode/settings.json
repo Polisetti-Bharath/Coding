@@ -17,8 +17,8 @@
     
     // Executor Map for different languages
     "code-runner.executorMap": {
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "c": "cd $dir && gcc \"$fileName\" -o \"$fileNameWithoutExt\" && \"./$fileNameWithoutExt\"",
+        "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt\" && \"./$fileNameWithoutExt\"",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "python": "python3 -u $fullFileName"
     },

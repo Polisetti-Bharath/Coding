@@ -1,6 +1,6 @@
 [
     {
-        "key": "ctrl+alt+m",
+        "key": "ctrl+alt+n",
         "command": "code-runner.run",
         "when": "editorTextFocus"
     },
